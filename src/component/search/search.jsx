@@ -3,9 +3,10 @@ import "./search.css";
 const Search = () => {
   return (
     <div className="formSearch">
-      <form action="">
-        <input type="text" placeholder="Search a city" />
+      <form onSubmit={handleSubmit}>
+        <input type="text" placeholder="Search for a city" />
       </form>
     </div>
   );
 };
+export default Search;
